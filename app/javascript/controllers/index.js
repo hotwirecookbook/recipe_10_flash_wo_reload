@@ -7,5 +7,8 @@ import { application } from "./application"
 import AutosubmitController from "./autosubmit_controller"
 application.register("autosubmit", AutosubmitController)
 
-import { Dropdown } from "tailwindcss-stimulus-components"
-application.register('dropdown', Dropdown)
+import FlashController from "./flash_controller"
+application.register("flash", FlashController)
+
+import HelloController from "./hello_controller"
+application.register("hello", HelloController)
